@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+ 
+<Operation Class="PatchOperationReplace">
+ <xpath>/Defs/ResearchProjectDef[defName="VFEC_HeavyShieldMaking"]/techLevel</xpath>
+  <value>
+   <techLevel>Medieval</techLevel>
+  </value>
+ </Operation>
+ 
+ <Operation Class="PatchOperationReplace">
+ <xpath>/Defs/ResearchProjectDef[defName="VFEC_LegionaryArmaments"]/techLevel</xpath>
+  <value>
+   <techLevel>Medieval</techLevel>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+ <xpath>/Defs/ResearchProjectDef[defName="VFEC_LegionnaireArmor"]/techLevel</xpath>
+  <value>
+   <techLevel>Medieval</techLevel>
+  </value>
+ </Operation>
+ 
+ <Operation Class="PatchOperationReplace">
+ <xpath>/Defs/ResearchProjectDef[defName="VFEC_CenturionArmor"]/techLevel</xpath>
+  <value>
+   <techLevel>Medieval</techLevel>
+  </value>
+ </Operation>
+ 
+ <Operation Class="PatchOperationReplace">
+ <xpath>/Defs/ResearchProjectDef[defName="VFEC_Scorpion"]/techLevel</xpath>
+  <value>
+   <techLevel>Medieval</techLevel>
+  </value>
+ </Operation>
+ 
+ <Operation Class="PatchOperationReplace">
+ <xpath>/Defs/ResearchProjectDef[defName="VFEC_BronzeWorking"]/techLevel</xpath>
+  <value>
+   <techLevel>Medieval</techLevel>
+  </value>
+ </Operation>
+ 
+ <Operation Class="PatchOperationReplace">
+ <xpath>/Defs/ResearchProjectDef[defName="VFEC_TyrianProduction"]/techLevel</xpath>
+  <value>
+   <techLevel>Medieval</techLevel>
+  </value>
+ </Operation>
+  
+ <Operation Class="PatchOperationReplace">
+ <xpath>/Defs/ResearchProjectDef[defName="VFEC_Togas"]/techLevel</xpath>
+  <value>
+   <techLevel>Medieval</techLevel>
+  </value>
+ </Operation>
+ 
+ <Operation Class="PatchOperationReplace">
+ <xpath>/Defs/ResearchProjectDef[defName="VFEC_TemperatureControl"]/techLevel</xpath>
+  <value>
+   <techLevel>Medieval</techLevel>
+  </value>
+ </Operation>
+	
+</Patch>

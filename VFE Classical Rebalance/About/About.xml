@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+ <name>VFE Classical Tech Rebalance</name>
+
+ <author>Seanbeag</author>
+
+ <supportedVersions>
+  <li>1.5</li>
+ </supportedVersions>
+	
+ <packageId>Seanbeag.VFECTechRebalance</packageId>
+
+ <description>Changes the tech levels and prerequisites of research projects in Vanilla Factions Expanded Classical to fit in better with Vanilla
+ 
+Techs changed from Neolithic to Medieval:
+
+Heavy Shield Making, Legionary Armaments, Legionnaire Armor, Centurion Armor, Scorpion, Bronze Working, Tyrian Production, Togas, Temperature Control.
+
+
+Tech Prerequisites added:
+
+Heavy Shield Making - Requires Smithing
+Legionary Armaments - Requires Long Blades
+Legionnaire Armor - Requires Smithing
+Centurion Armor - Requires Smithing
+Scorpion - Requires Armor
+Beacons - Requires Tree Sowing
+Bronze Working - Requires Smithing
+Cement Working - Requires Stonecutting
+Tyrian Production - Requires Devilstrand
+Road Building - Requires Stonecutting
+Woodfired Crematorium - Requires Tree Sowing
+Togas - Requires Complex Clothing
+Temperature Control - Requires Passive Cooler
+Mosaics - Requires Stonecutting
+Thermaebath - Requires Stonecutting
+Drama and Comedy - Requires Stonecutting
+
+ </description>
+	
+ <modDependencies>
+  <li>
+   <packageId>OskarPotocki.VFE.Classical</packageId>
+   <displayName>Vanilla Factions Expanded - Classical</displayName>
+   <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2787850474</steamWorkshopUrl>
+  </li>
+  
+ </modDependencies>
+  <loadAfter>
+   <li>OskarPotocki.VFE.Classical</li>
+  </loadAfter>
+  <loadBefore>
+   <li>oskarpotocki.vfe.mechanoid</li>
+  </loadBefore>
+</ModMetaData>
